@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.clearF::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.con_div{
+    width: 1366px;
+    margin: auto;
+}
+.text_center{
+    text-align: center;
+}
+/* main css */
+
+/* header */
+
+.header{
+    background: #F45A5C;
+}
+.header_left {
+    width: 30%;
+    float: left;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    line-height: 47px;
+}
+.header_right{
+    width: 70%;
+    float: right;
+}
+.header_right ul{
+    text-align: right;
+}
+.header_right ul li {
+    display: inline-block;
+    margin-left: -5px;
+}
+.header_right ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-right: 1px solid #fff;
+    line-height: 27px;
+    padding: 10px 15px;
+}
+.header_right ul li:first-child a {
+    border-left: 1px solid #fff;
+}
+.header_right ul li a:hover{
+    background: rgb(151, 20, 46);
+}
+
+
+/* hero Section */
+
+.hero-section{
+    background:url(./image/images.jfif) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0 ;
+}
+
+.hero_text h1 {
+    display: inline-block;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px 0;
+    background:rgba(61, 23, 31, 0.582);
+    padding:5px 20px ;
+}
+.hero_text h5 {
+    color: #fff;
+    border-radius: 5px;
+    margin: auto;
+    background: rgba(61, 23, 31, 0.582);
+    padding: 5px 20px;
+    max-width: 650px;
+    font-size: 22px;
+}
+.hero_text a {
+    margin-top: 61px;
+    display: inline-block;
+    padding: 20px 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 31px;
+}
+
+/* service section */
+
+/* .our_service{
+    background: #ddd;
+} */
+.about h2 {
+    margin-top: 80px;
+    font-size: 34px;
+}
+.about p {
+    margin: 13px 0 60px 0;
+    font-size: 20px;
+}
+.service_item {
+    float: left;
+    width: 24%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding: 20px  10px;
+    margin: .5%;
+    border-radius: 18px;
+}
+.service_item span i {
+    background: #f45a5c;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    padding: 2px;
+    border-radius: 50%;
+    border: 12px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.service_item p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+hr{
+    margin: 100px 0;
+    color: salmon;
+}
+/* About Us */
+
+.image{
+    float: left;
+    width: 47%;
+    overflow: hidden;
+}
+.image img{
+    transform: scale(1);
+    transition: .6s;
+    width: 100%;
+}
+.image img:hover{
+    transform: scale(1.2);
+}
+.about_text{
+    float: right;
+    width: 50%;
+}
+.all_text p {
+    margin: 10px 0;
+}
+
+
+/* contact */
+
+
+.address_item{
+    float: left;
+    width: 33.33%;
+}
+
+.contact_section{
+    background: lightgrey;
+    padding: 10px 0 50px 0;
+}
+
+/* Footer */
+
+.footer{
+    background: lightpink;
+}
+
+
+
+
